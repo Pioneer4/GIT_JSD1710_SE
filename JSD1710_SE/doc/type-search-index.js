@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"APIDocDemo","h":"","u":""},{"l":"String_charAt","h":"","u":""},{"l":"String_indexOf","h":"","u":""},{"l":"String_startswith_endswith","h":"","u":""},{"l":"String_substring","h":"","u":""},{"l":"String_toUpperCase_toLowerCase","h":"","u":""},{"l":"String_trim","h":"","u":""},{"l":"String_valueOf","h":"","u":""},{"l":"StringBuilderDemo1","h":"","u":""}]
