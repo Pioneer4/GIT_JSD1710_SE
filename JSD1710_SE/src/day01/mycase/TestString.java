@@ -150,4 +150,33 @@ public class TestString {
 		sb.insert(8, " php");
 		System.out.println(sb.toString());
 	}
+	
+	/**
+	 * Test the method delete of StringBuilder.
+	 */
+	@Test
+	public void testDelete() {
+		StringBuilder sb = new StringBuilder("java cpp php c# objective-c");
+		
+		sb.delete(8, 8+4);
+		System.out.println(sb.toString());
+	}
+	
+	/**
+	 * Output all Unicode encoding Chinese characters.
+	 */
+	@Test
+	public void testOutputChineseCharaters() {
+		StringBuilder sb = new StringBuilder();
+		int i = 0;
+		for (char c='\u4e00'; c<='\u9fa5'; c++) {
+			i++;
+			sb.append(c);
+			if (i%50 == 0) {
+				sb.append("\n");
+			}
+		}
+		System.out.println("amount: " + i);
+		System.out.println(sb.toString());
+	}
 }
