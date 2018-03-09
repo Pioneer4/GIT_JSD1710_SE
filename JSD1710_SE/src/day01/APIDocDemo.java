@@ -9,6 +9,16 @@ package day01;
  * @see 	java.lang.String
  * @since 	JDK1.9
  */
+
+/**
+ * 
+ * <strong> 123</Strong> 123
+ * @author Administrator
+ * @version
+ * @see
+ * @since
+ *
+ */
 public class APIDocDemo {
 	public static void main(String[] args) {
 		String str = sayHello("Walter");
